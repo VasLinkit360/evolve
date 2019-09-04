@@ -1,0 +1,145 @@
+/* CSS Document */
+
+body {
+	background-color:#4abcf4!important;
+	background-position: top;
+	background-repeat: repeat-x;
+}
+.text-prizes {
+	text-align: center;
+    color: #574b45;
+    font-size: 28px;
+	font-weight: 500;
+}
+.text-content {
+	color: #574b45;
+	font-size: 28px;
+	font-style: italic;
+	font-weight: 700;
+}
+.btn-smart {
+ 	background: #ffd300;
+	background: -moz-linear-gradient(top, #ffd300 0%, #bb4f00 100%);
+	background: -webkit-linear-gradient(top, #ffd300 0%,#bb4f00 100%);
+	background: linear-gradient(to bottom, #ffd300 0%,#bb4f00 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd300', endColorstr='#bb4f00',GradientType=0 );
+	border: 0px;
+	border-color: #ffd300!important;
+}
+.bg-top {
+	background-image: url(../img/bg-yellow.png);
+	background-position: top center;
+	background-repeat: repeat-x;
+	background-size: cover;
+}
+.bg-bottom {
+	background-image: url(../img/bg-yellow-btm.png);
+	background-position: bottom;
+	background-repeat: repeat-x;
+	background-size: initial;
+	margin-top: 10px;
+}
+.wd-100 {
+	width: 100%;
+}
+.wd-50 {
+	width: 50%;
+}
+.wd-49 {
+	width: 49%;
+}
+.text-small {
+	font-size: 60%;
+}
+.text-smaller {
+	font-size: 80%;
+}
+.text-big {
+	font-size: 120%;
+}
+.m0 {
+	margin: 0 auto;
+}
+.ml10p {
+	margin-left: 10%;
+}
+.plpr0 {
+	padding-left: 0!important;
+	padding-right: 0!important;
+}
+.v2-header {
+	background: #22b9ff;
+	border-bottom: 0px!important;
+}
+.v2-title {
+	color: #fff;
+	font-size: 1.2rem;
+}
+.v2-close {
+	color: #fff!important;
+	opacity: 1!important;
+}
+.subscription-offer {
+    position: relative;
+	/*margin-top: 20px;*/
+	color: #fff;
+}
+.vector-graphic {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+.offer-inner-content {
+    position: relative;
+    padding: 0 10px;
+    width: 94%;
+    margin: 0 auto;
+}
+.offer-inner-content h3,
+.offer-inner-content h5
+{
+    line-height: 0.9!important;
+}
+.button {
+    display: inline-block;
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 15px 0;
+    border: 1px solid #fff;;
+	margin-top: 10px;
+	width: 90%;
+}
+.button.dl {
+	background-color: #ee1d23;
+}
+.button.cek {
+	background-color: #e87e01;
+}
+h1, p {
+    line-height: 1.5;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 0!important;
+	margin-bottom: 0!important;
+}.noted {
+	text-align: right;
+    position: relative;
+	right: 15%;
+    font-size: 11px;
+    margin-top: 3px;
+    font-style: italic;
+}
+.dishide {
+	display: none;
+}
+@media only screen and (max-width: 400px) {
+	.fix {
+		position:absolute;
+		bottom: 0px;
+		width: 100%;
+	}
+}
+
